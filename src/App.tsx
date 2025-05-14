@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 import videoSemNarracao from "./assets/video-panico.mp4"
-import videoComNarracao from "./assets/video-panico.mp4"
+import videoComNarracao from "./assets/video-narrado-panico-no-benfica.mp4"
 
 import foto1 from "./assets/story1.jpg"
 import capa from "./assets/story2.jpg"
@@ -74,52 +74,52 @@ export function App() {
 
       {/* Storyboard */}
       <div className="text-center  px-10">
-        <h2 className="text-3xl mb-10">Storyboards</h2>
+        <h2 className="text-3xl font-semibold mb-10">Storyboards</h2>
         <div className="pb-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 justify-items-center">
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto1} alt="Storyboard cena 1" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto1} alt="Storyboard cena 1" />
               <p className="text-sm pt-2">1 - Um momento carinhoso entre os donos da casa.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto3} alt="Storyboard cena 2" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto3} alt="Storyboard cena 2" />
               <p className="text-sm pt-2">2 - Júlia troca contacto com Eduardo. Carlos observa discretamente.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto4} alt="Storyboard cena 3" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto4} alt="Storyboard cena 3" />
               <p className="text-sm pt-2">3 - Carlos percebe algo estranho e talvez vá contar para Teresa.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto6} alt="Storyboard cena 4" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto6} alt="Storyboard cena 4" />
               <p className="text-sm pt-2">4 - A relação paralela está clara. Eles parecem íntimos e felizes.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto7} alt="Storyboard cena 5" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto7} alt="Storyboard cena 5" />
               <p className="text-sm pt-2">5 - Confronto explosivo. A verdade vem à tona.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto8} alt="Storyboard cena 6" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto8} alt="Storyboard cena 6" />
               <p className="text-sm pt-2">6 - Júlia e Carlos discutem. A relação se desfaz.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={foto9} alt="Storyboard cena 7" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={foto9} alt="Storyboard cena 7" />
               <p className="text-sm pt-2">7 - Carlos tenta pedir desculpas. Teresa o rejeita.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={fotofim} alt="Storyboard cena 8" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={fotofim} alt="Storyboard cena 8" />
               <p className="text-sm pt-2">8 - Carlos tenta reconquistar. Teresa hesita.</p>
             </div>
 
             <div>
-              <img className="w-[500px] h-[200px] object-cover rounded-md shadow-md" src={fotostory} alt="Storyboard cena 9" />
+              <img className="w-[500px] h-[300px] object-cover rounded-md shadow-md" src={fotostory} alt="Storyboard cena 9" />
               <p className="text-sm pt-2">9 - Reviravolta! Ela decide perdoar.</p>
             </div>
 
@@ -134,7 +134,7 @@ export function App() {
           {/* Equipa Técnica */}
           <div className="space-y-2">
             <h3 className="text-base font-semibold text-gray-900">Equipa Técnica</h3>
-            <p><span className="font-medium">Produção:</span> Ana Gourgel, Gracieth Manuel, Aureo Pedro</p>
+            <p><span className="font-medium">Produção:</span> Ana Gourgel, Aurio Pedro, Gracieth Manuel</p>
             <p><span className="font-medium">Direção e Edição:</span> Ana Gourgel</p>
             <p><span className="font-medium">Roteiro e Design:</span> Gracieth Manuel</p>
             <p><span className="font-medium">Som:</span> Aurio Pedro</p>
